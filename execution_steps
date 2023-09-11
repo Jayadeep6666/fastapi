@@ -1,0 +1,9 @@
+1.Create a virtual environment - pip -m vene myvenv
+2.myvenv/Scripts/activate
+3.virtual environment will be created
+
+4.install fastapi dependencies and uvicorn
+    pip install uvicorn
+    pip install fastapi
+    
+5.run this command : uvicorn main:app --reload
